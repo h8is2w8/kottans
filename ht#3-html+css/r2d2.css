@@ -1,0 +1,36 @@
+body {
+  background: rgb(65, 134, 145);
+  color: rgb(224, 224, 224);
+}
+
+h1 { color: white;}
+
+p:first-letter {
+  font-size: 18px;
+  color: white;
+}
+
+nav a {
+  color: #ffafaf;
+  font-weight: bold;
+}
+nav a:hover {
+  color: red;
+}
+
+section a {
+  color: rgb(110, 239, 255);
+}
+section a:hover {
+  color: blue;
+}
+
+.last_block { 
+  background: rgba(0,0,0,0.8);
+}
+
+#register:after {
+  content: "I have read and agree to the Terms of Use";
+  color: #fff;
+  font-weight: bold;
+}

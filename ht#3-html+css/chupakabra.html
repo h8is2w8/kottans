@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>task №3</title>
+  <link rel="stylesheet" type="text/css" href="r2d2.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href='#faq'>faq</a></li>
+        <li><a href='#contacts'>contacts</a></li>
+        <li><a href='#register'>register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Cat said 'MEOW'</h1>
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Wikipedia is a multilingual, web-based, free-content encyclopedia project supported by the Wikimedia Foundation and based on an openly editable model. The name "Wikipedia" is a portmanteau of the words wiki (a technology for creating collaborative websites, from the Hawaiian word wiki, meaning "quick") and encyclopedia. Wikipedia's articles provide links designed to guide the user to related pages with additional information.
+    </p>
+    <p>
+      Wikipedia is written collaboratively by largely anonymous Internet volunteers who write without pay. Anyone with Internet access can write and make changes to Wikipedia articles, except in limited cases where editing is restricted to prevent disruption or vandalism. Users can contribute anonymously, under a pseudonym, or, if they choose to, with their real identity.
+    </p>
+    <img src="http://cs7004.vk.me/c7006/v7006766/1c5b5/ZNt2YhWU3yw.jpg" alt="cover"/>
+  </section>
+ 
+  <section id="faq">
+    <h2>FAQ</h2>
+    <ol>
+      <li>
+        The essence
+        <ol>
+          <li>What is this?</li>
+          <li>You've got such a cool slang!</li>
+          <li>I cann't be silent!</li>
+        </ol>
+      </li>
+      <li>
+        fiercely, furiously hate
+        <ol>
+          <li>I have found you have a typo!</li>
+          <li>This article is written is not true!</li>
+        </ol>
+      </li>
+      <li>
+        Register
+        <ol>
+          <li>What can I do without registering?</li>
+          <li>What I can't do without registering?</li>
+          <li>Registration advantages</li>
+          <li>I checked. Where are the promised advantages?</li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+ 
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <a href="http://twitter.com/dorsey">Our twitter</a>
+    <a href="mailto:larrypage@google.com">larrypage@gmail.com</a>
+  </section>
+ 
+  <section id="register">
+    <h2>Register</h2>
+    <form action="/users" id="new_user" method="post">
+      <label>Email:</label>
+      <input name="email" type="email" placeholder="email"><br />
+      <label>Password:</label>
+      <input name="password" type="password" placeholder="password"><br />
+      <label>Password Confirmation:</label>
+      <input name="password_confirmation" type="password" placeholder="confirmation"><br />
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+ 
+  <section id="feedback" class="last_block">
+    <h2>Feedback</h2>
+    <form action="/feedbacks" id="new_feedback" method="post">
+      <textarea id="feedback_text" name="feedback" placeholder="Start typing here.."></textarea><br />
+      <input type="submit" value="Leave feedback">
+    </form>
+  </section>
+ 
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href='#faq'>faq</a></li>
+        <li><a href='#contacts'>contacts</a></li>
+        <li><a href='#register'>register</a></li>
+      </ul>
+    </nav>
+    <span>&copy; Harvey Specter</span>
+  </footer>
+</body>
+</html>

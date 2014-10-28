@@ -1,0 +1,17 @@
+<table>
+  <caption>Disk space</caption>
+  <thead>
+  	<% @parsed_data.shift.each do |title| %>
+      <th><%= title %></th>
+    <% end %>
+  </thead>
+  <tbody>
+    <% @parsed_data.each do |row| %>
+      <tr>
+        <% row.each do |element| %>
+      	  <td><%= element %></td>
+        <% end %>
+      <tr>
+    <% end %>
+  </tbody>
+</table>
