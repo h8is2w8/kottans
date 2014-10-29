@@ -1,0 +1,19 @@
+<table border="1" width="600px">
+
+  <caption><%= @title %></caption>
+  <tr>
+  	<% @titles.each do |title| %>
+      <th><%= title %></th>
+    <% end %>
+  </tr>
+  <tr>
+    <% @parsed_data.each do |row| %>
+      <tr>
+        <% row.to_s.gsub(/\"|\[|\]/, '').split(' ', @title == "CPU" ? 4 : 6).each do |element| %>
+          <td><%= element %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tr>
+  </tbody>
+</table>

@@ -1,1 +1,17 @@
-<%= @storage %>
+<table>
+  <caption>CPU</caption>
+  <tr>
+  	<% @parsed_data.shift.each do |title| %>
+      <th><%= title %></th>
+    <% end %>
+  </tr>
+  <tr>
+    <% @parsed_data.each do |row| %>
+      <tr>
+        <% row.each do |element| %>
+      	  <td><%= element %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tr>
+</table>
