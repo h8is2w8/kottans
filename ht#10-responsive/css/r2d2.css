@@ -1,0 +1,165 @@
+/* general settings */
+h2 {
+  font-size: 24px !important;
+  text-align: center !important;
+}
+
+h2, h4 { font-weight: bold !important; }
+
+p {
+  margin-bottom: 10px;
+}
+
+/* header */
+.header_wrapper {
+  background: #eee;
+  margin-bottom: 10px;
+}
+
+.nav_main { 
+  background: #fff; 
+}
+.nav_main li {
+  display: inline-block;
+  height: 50px;
+  width: 25%;
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.nav_main li img {
+  vertical-align: middle;
+}
+.nav_main li a {
+  line-height: 48px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+/* content */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.custom_block {
+  overflow: hidden;
+  border: 1px solid #000;
+  padding: 20px 30px;
+}
+
+#about, #faq { line-height: 1.4; }
+
+/* about page */
+#new_york_top {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+#new_york_bottom {
+  float: right;
+  margin-left: 10px;
+}
+
+/* faq */
+.faq li {
+  margin-left: 20px;
+}
+
+/* contacs section */
+.address_block {
+  float: left;
+}
+.address_block li {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: block;
+}
+
+.address_block li img {
+  vertical-align: middle;  
+}
+
+/* sit */
+.sit_form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#new_sit .form-field {
+  margin-bottom: 10px;
+}
+
+#new_sit .form-field input {
+  padding-left: 5px;
+  height: 20px;
+}
+
+
+/* footer */
+  /* top part */
+  .top_footer { 
+    border: 1px solid #000;
+    display: block;
+    overflow: hidden;
+  }
+
+  .top_footer > li {
+    height: 124px;  
+    border: 1px solid #000;
+    overflow: hidden;
+    width: 50%;
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+  }
+
+    /* left part */
+    .left_side {
+      float: left;
+      background: #DAF5CF;
+    }
+
+    .left_side li { margin-bottom: 5px; }
+    .left_side a { color: rgba(0, 41, 249, 0.71); }
+
+    /* right part */
+    .right_side {
+      float: right;
+      background: #F0F0F0;
+    }
+
+    /* feedback */
+    #new_feedback .form-field {
+      display: inline-block;
+      margin: 5px 0px;
+    }
+
+    .radio_buttons {
+      display: inline;
+    }
+
+    #vote {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      outline: none;
+      border: 2px solid #000;
+      font-size: 14px;
+      padding: 2px 10px;
+      background: #fff;
+    }
+
+  /* bottom part */ 
+  .bottom_part {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+  }
