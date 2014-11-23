@@ -1,0 +1,15 @@
+!!! 5
+%html
+  %head
+    %meta{ :charset => "utf-8" } 
+    %title kottans
+    %link{ :rel => "stylesheet", :href => "css/custom.css" } 
+    -# %script{ :src => "js/custom.js" } 
+  %body
+    %header
+      %nav
+        %ul
+          %li 
+            %a{ href: "/" }Home
+    = yield
+    -# This is a comment
