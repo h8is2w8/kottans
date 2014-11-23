@@ -1,0 +1,10 @@
+.left_side nav {
+  text-align: center;
+  line-height: 70px;
+}
+
+.left_side li {
+  display: inline-block;
+  width: auto;
+  margin-right:15px;
+}

@@ -127,6 +127,7 @@ p {
     }
 
     .left_side li { margin-bottom: 5px; }
+    .left_side li:last-child { margin: 0px; }
     .left_side a { color: rgba(0, 41, 249, 0.71); }
 
     /* right part */
